@@ -12,7 +12,7 @@ import "./LockableToken.sol";
  */
 contract SimpleToken is LockableToken {
 
-  string public constant name = "dAegisToken"; // solium-disable-line uppercase
+  string public constant name = "dAegis Token"; // solium-disable-line uppercase
   string public constant symbol = "DAE"; // solium-disable-line uppercase
   uint8 public constant decimals = 18; // solium-disable-line uppercase
 
