@@ -16,7 +16,7 @@ contract SimpleToken is LockableToken {
   string public constant symbol = "DAE"; // solium-disable-line uppercase
   uint8 public constant decimals = 18; // solium-disable-line uppercase
 
-  uint256 public constant INITIAL_SUPPLY = 70000000 * (10 ** uint256(decimals));
+  uint256 public constant INITIAL_SUPPLY = 700000000 * (10 ** uint256(decimals));
 
   /**
    * @dev Constructor that gives msg.sender all of existing tokens.
