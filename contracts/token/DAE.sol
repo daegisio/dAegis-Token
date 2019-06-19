@@ -10,7 +10,7 @@ import "./LockableToken.sol";
  * Note they can later distribute these tokens as they wish using `transfer` and other
  * `StandardToken` functions.
  */
-contract SimpleToken is LockableToken {
+contract DAE is LockableToken {
 
   string public constant name = "dAegis Token"; // solium-disable-line uppercase
   string public constant symbol = "DAE"; // solium-disable-line uppercase
